@@ -9,3 +9,6 @@
 		die ("This filer name {$class}.php was not found");
 	}
 }*/
+ function redirect ($location) {
+	 header("Location: {$location}");
+ }

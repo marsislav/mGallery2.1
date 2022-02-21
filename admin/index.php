@@ -1,4 +1,7 @@
-<?php include ('includes/header.php');?>
+<?php include ('includes/header.php');
+if (!$session->is_signed_in()) {redirect("login.php");}
+?>
+
 <?php
 /*
 $result_set=User::find_all_users();

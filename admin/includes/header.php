@@ -1,4 +1,8 @@
-<?php require_once("init.php"); ?>
+<?php require_once("init.php");
+if (!$session->is_signed_in()) {
+ 
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
